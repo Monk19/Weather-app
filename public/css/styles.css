@@ -1,0 +1,28 @@
+body{
+    margin: 100px;
+    background-color: skyblue;
+}
+h1{
+    margin-top: 4opx;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li {
+    color: white;
+    letter-spacing: 3px; 
+    font-size: 50px;
+    text-align: center;
+}
+a{
+    color:inherit;
+}
+
+#message-1,#message-2 {
+    color:rgb(207, 173, 22);
+    letter-spacing : 3px; 
+    font-size: 30px;
+    text-align: center;
+}

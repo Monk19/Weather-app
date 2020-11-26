@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "./css/styles.css" rel="stylesheet" type = "text/css">
+        <script src="./js/app.js" defer></script>
+    </head>
+    <body>
+        <div>
+        {{>headers}}
+        <h1><b>Welcome <b style="color:rgb(14, 34, 70);font-family:Yellowtail">Ravi</b>{{forecast}}</b></h1>
+        {{>footer}}
+        <form align="center">
+            <input type=text placeholder="Location"/>
+            <button>Search</button>
+        </form>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+        </div>
+
+    </body> 
+</html>
