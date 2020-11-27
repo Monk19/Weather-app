@@ -1,9 +1,9 @@
 console.log("Hi NEW COMMIT")
 const path = require('path')
 const express = require('express');
+const port = process.env.PORT || 3000
 const app = express()
 const hbs = require('hbs')
-const port = 3000
 const request = require('postman-request')
 const geoCode = require('./utils/geocode')
 const foreCast = require('./utils/forecast')
@@ -58,6 +58,6 @@ app.get('help/*',(req,res)=>{
     res.render('notfound',{name:':( 404 PAGE NOT FOUND..!'})
 })
  
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log(`Server is up and running http://localhost:${port}`)
 })
